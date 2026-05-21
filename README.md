@@ -13,7 +13,7 @@ A running developed PC tester for quickly test basic function of a PC
 #### WMIC
 `wmic bios get serialnumber`
 
-####
+#### Nyere windows uden WMIC
 `get-ciminstance win32_bios | select SerialNumber`
 
 ### Get Battery Health
