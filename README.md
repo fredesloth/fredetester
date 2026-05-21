@@ -9,7 +9,12 @@ A running developed PC tester for quickly test basic function of a PC
 ## CMD/PowerShell Commands
 
 ### Get serial number
+
+#### WMIC
 `wmic bios get serialnumber`
+
+####
+`get-ciminstance win32_bios | select SerialNumber`
 
 ### Get Battery Health
 `powercfg /batteryreport`
