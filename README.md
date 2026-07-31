@@ -10,7 +10,7 @@ A running developed PC tester for quickly test basic function of a PC
 
 ### Get serial number
 
-#### WMIC
+#### Serienummer
 ```
 wmic bios get serialnumber
 ```
@@ -18,11 +18,11 @@ wmic bios get serialnumber
 
 #### Nyere windows uden WMIC
 ```
-`get-ciminstance win32_bios | select SerialNumber`
+get-ciminstance win32_bios | select SerialNumber
 ```
 
 
-### Get Battery Health
+### Batteri Rapport
 ```
 powercfg /batteryreport
 ```
